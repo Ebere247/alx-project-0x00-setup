@@ -4,5 +4,5 @@ export interface PillProps {
 // interfaces/index.ts
 export interface ButtonProps {
   title: string;
-  styleClass?: string; // Optional className passed for styling (e.g., size or shape)
+  styles: string; // Optional className passed for styling (e.g., size or shape)
 }
